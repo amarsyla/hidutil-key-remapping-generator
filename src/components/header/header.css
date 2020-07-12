@@ -1,0 +1,13 @@
+.header {
+  margin-bottom: 40px;
+}
+
+.header__icon {
+  font-size: 40px;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 400;
+}

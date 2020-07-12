@@ -1,5 +1,5 @@
 {
-  "name": "mac-key-remapping-generator",
+  "name": "hidutil-key-remapping-generator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

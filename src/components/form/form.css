@@ -1,0 +1,34 @@
+.form {
+  margin-bottom: 40px;
+}
+
+.form__header {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.form__header > div {
+  flex: 1;
+  font-size: 12px;
+}
+
+.form__header > div:last-child {
+  max-width: 100px;
+  flex: 0 0 100px;
+}
+
+.form__row {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 10px;
+}
+
+.form__row__select {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form__row__button {
+  max-width: 100px;
+  flex: 0 0 100px;
+}

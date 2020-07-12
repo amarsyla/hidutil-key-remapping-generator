@@ -1,0 +1,26 @@
+.result__header {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.result__header__title {
+  margin: 0;
+  margin-right: auto;
+  font-weight: 400;
+}
+
+.result__header button {
+  margin-left: 5px;
+}
+
+.result__content {
+  display: block;
+  width: 100%;
+  border: 1px solid #555;
+  background-color: #efefef;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  word-wrap: break-all;
+}
