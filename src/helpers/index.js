@@ -32,7 +32,7 @@ export const generateConfig = (keyMaps) => `
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>MacOS Key Remapping</key>
+    <key>Label</key>
     <string>com.local.KeyRemapping</string>
     <key>ProgramArguments</key>
     <array>
