@@ -1,4 +1,11 @@
 .app {
   max-width: 800px;
+  padding: 0 20px;
   margin: 80px auto;
+}
+
+.app__github-link {
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
