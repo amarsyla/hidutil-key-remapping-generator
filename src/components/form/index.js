@@ -53,17 +53,28 @@ const Form = ({ keyMaps, setKeyMaps }) => {
         ))}
       </div>
       
-      <button
-        className="form__button"
-        onClick={() => {
-          setKeyMaps([
-            ...keyMaps,
-            {}
-          ]);
-        }}
-      >
-        Add key map
-      </button>
+      <div className="form__buttons">
+        <button
+          className="form__button"
+          onClick={() => {
+            setKeyMaps([
+              ...keyMaps,
+              {}
+            ]);
+          }}
+        >
+          Add key map
+        </button>
+
+        <button
+          className="form__button"
+          onClick={() => {
+            setKeyMaps([{}]);
+          }}
+        >
+          Remove all
+        </button>
+      </div>
     </div>
   );
 };

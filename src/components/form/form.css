@@ -32,3 +32,13 @@
   max-width: 100px;
   flex: 0 0 100px;
 }
+
+.form__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__button {
+  max-width: 100px;
+  flex: 0 0 100px;
+}

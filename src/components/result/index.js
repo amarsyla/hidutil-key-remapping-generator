@@ -8,7 +8,7 @@ const Result = ({ keyMaps }) => {
   return (
     <div className="result">
       <div className="result__header">
-        <h5 class="result__header__title">Copy the configuration below to <code>~/Library/LaunchAgents/com.local.KeyRemapping.plist</code></h5>
+        <h5 className="result__header__title">Copy the configuration below to <code>~/Library/LaunchAgents/com.local.KeyRemapping.plist</code></h5>
         
         <button
           onClick={() => {
