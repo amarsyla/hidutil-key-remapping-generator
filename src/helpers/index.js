@@ -7,7 +7,7 @@ export const copyToClipboard = (str) => {
   document.body.removeChild(el);
 };
 
-export const keyToValueId = key => `0x${(parseInt(7000000, 16) + parseInt(key)).toString(16).toUpperCase()}`;
+export const keyToValueId = key => `0x${(parseInt(700000000, 16) + parseInt(key)).toString(16).toUpperCase()}`;
 
 export const generateKeyMapsConfig = (keyMaps) => {
   const config = keyMaps
@@ -19,10 +19,6 @@ export const generateKeyMapsConfig = (keyMaps) => {
             }
     `.trimEnd().replace(/^(\r\n|\n|\r)/gm, ''))
     .join(",\r\n");
-
-  // const lines = config.split(/\r?\n/).filter(line => line);
-
-  
 
   return config && `\r\n${config}\r\n${' '.repeat(8)}`;
 };
@@ -87,6 +83,12 @@ export const keys = [
       { key: '8 and *', hex: 0x25 },
       { key: '9 and (', hex: 0x26 },
       { key: '0 and )', hex: 0x27 },
+      { key: 'Left Control', hex: 0xE0 },
+      { key: 'Left Option', hex: 0xE2 },
+      { key: 'Left Command', hex: 0xE3 },
+      { key: 'Right Control', hex: 0xE4 },
+      { key: 'Right Option', hex: 0xE6 },
+      { key: 'Right Command', hex: 0xE7 },
       { key: 'Return (ENTER)', hex: 0x28 },
       { key: 'ESCAPE', hex: 0x29 },
       { key: 'DELETE (Backspace)', hex: 0x2A },
