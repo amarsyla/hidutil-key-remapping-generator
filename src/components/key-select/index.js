@@ -1,5 +1,5 @@
 import React from 'react';
-import { keys } from '../../helpers';
+import keys from '../../helpers/keys';
 
 const KeySelect = (props) => (
   <select {...props}>
@@ -13,7 +13,7 @@ const KeySelect = (props) => (
         {group.keys.map(({ key, hex }) => (
           <option
             key={key}
-            value={hex}
+            value={hex.toString(16)}
           >
               {key}
           </option>

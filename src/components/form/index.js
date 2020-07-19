@@ -26,7 +26,7 @@ const Form = ({ keyMaps, setKeyMaps }) => {
             <KeySelect
               className="form__row__select"
               name="from"
-              value={keyMap.from}
+              value={keyMap.from && keyMap.from.toString(16)}
               onChange={(e) => {
                 handleChange(keyMap, e);
               }}
@@ -35,7 +35,7 @@ const Form = ({ keyMaps, setKeyMaps }) => {
             <KeySelect
               className="form__row__select"
               name="to"
-              value={keyMap.to}
+              value={keyMap.to && keyMap.to.toString(16)}
               onChange={(e) => {
                 handleChange(keyMap, e);
               }}
