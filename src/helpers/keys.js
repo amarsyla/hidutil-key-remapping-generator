@@ -10,7 +10,8 @@ export const keys = [
       { key: 'right_control', hex: 0xE4 },
       { key: 'right_shift', hex: 0xE5 },
       { key: 'right_option', hex: 0xE6 },
-      { key: 'right_command', hex: 0xE7 }
+      { key: 'right_command', hex: 0xE7 },
+      { key: 'fn', hex: 0x0003 + 0xFF00000000 - 0x700000000 }
     ]
   },
   {
