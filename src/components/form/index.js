@@ -18,14 +18,15 @@ const Form = ({ keyMaps, setKeyMaps }) => {
         <div></div>
       </div>
       <div className="form__rows">
-        {keyMaps.map((keyMap, keyMapIndex) => (
+      {keyMaps.map((keyMap, keyMapIndex) => (
           <div
-            key={`keyMap-${keyMapIndex}`}
+            key={keyMap.from || keyMapIndex}
             className="form__row"
           >
             <KeySelect
               className="form__row__select"
               name="from"
+              currentKeyMaps={keyMaps}
               value={keyMap.from && keyMap.from.toString(16)}
               onChange={(e) => {
                 handleChange(keyMap, e);
