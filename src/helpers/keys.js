@@ -31,11 +31,11 @@ export const keys = [
       { key: 'non_us_pound', hex: 0x32 },
       { key: 'semicolon (;)', hex: 0x33 },
       { key: 'quote (\')', hex: 0x34 },
-      { key: 'grave_accent_and_tilde', hex: 0x35 },
+      { key: 'grave_accent_and_tilde (`)', hex: 0x35 },
       { key: 'comma (,)', hex: 0x36 },
       { key: 'period (.)', hex: 0x37 },
       { key: 'slash (/)', hex: 0x38 },
-      { key: 'non_us_backslash (\\)', hex: 0x64 }
+      { key: 'non_us_backslash (\\), section (§)', hex: 0x64 }
     ]
   },
   {
