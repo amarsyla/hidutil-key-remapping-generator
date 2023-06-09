@@ -129,8 +129,8 @@ export const keys = [
       // @TODO: fix the media control keys below
       // { key: 'mission_control', hex: 0xff0100000007 - 0x700000000 },
       // { key: 'launchpad', hex: 0xff0100000006 - 0x700000000 },
-      // { key: 'illumination_decrement', hex: 0xff0100000008 },
-      // { key: 'illumination_increment', hex: 0xff0100000009 },
+      { key: 'illumination_decrement', hex: 0xFF00000009 },
+      { key: 'illumination_increment', hex: 0xFF00000008 },
       { key: 'rewind', hex: 0xC000000B4 - 0x700000000 },
       { key: 'play_or_pause', hex: 0xC000000CD - 0x700000000 },
       { key: 'fast_forward', hex: 0xC000000B3 - 0x700000000 },
