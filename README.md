@@ -8,7 +8,7 @@ Basic MacOS key remapping without external software using [hidutil](https://deve
 1. Open the [hidutil generator tool](https://hidutil-generator.netlify.app/)
 2. Setup your key remaps
 3. Copy the generated configuration to `~/Library/LaunchAgents/com.local.KeyRemapping.plist`
-4. Reboot computer
+4. Reboot computer, or run `launchctl load ~/Library/LaunchAgents/com.local.KeyRemapping.plist`
 
 ## Setting up locally
 
